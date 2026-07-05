@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张琪想 - 个人介绍</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" data-i18n="nav.home">首页</a></li>
+                <li><a href="#about" data-i18n="nav.about">关于我</a></li>
+                <li><a href="#experience" data-i18n="nav.experience">经历</a></li>
+                <li><a href="#interests" data-i18n="nav.interests">兴趣</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">联系</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="lang-toggle" id="langToggle">EN</button>
+                <button class="menu-toggle" id="menuToggle">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero 区域 -->
+    <section id="home" class="hero">
+        <!-- 几何装饰 -->
+        <div class="hero-decoration circle"></div>
+        <div class="hero-decoration square"></div>
+        <div class="hero-decoration triangle"></div>
+        <div class="hero-decoration diamond"></div>
+
+        <!-- 背景台词 -->
+        <div class="hero-quotes-bg" id="heroQuotesBg">
+            <!-- 由 JavaScript 动态生成 -->
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-greeting" data-i18n="hero.greeting">你好，我是</p>
+                <h1 class="hero-name" data-i18n="hero.name">张琪想</h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">上海科技大学 · 计算机科学与技术 · 本科</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">关于我</h2>
+            <div class="about-content">
+                <p class="about-intro" data-i18n="about.intro">
+                    我是一名热爱技术的计算机专业学生，目前就读于上海科技大学。我对编程、算法和系统设计充满热情，喜欢探索新技术并动手实践。
+                </p>
+                <div class="courses">
+                    <div class="courses-header">
+                        <h3 data-i18n="about.courses.title">已修课程</h3>
+                    </div>
+                    <div class="course-tags" id="courseTags">
+                        <!-- 由 JavaScript 动态生成 -->
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3 data-i18n="about.skills.title">技能</h3>
+                    <div class="skill-tags" id="skillTags">
+                        <!-- 由 JavaScript 动态生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 经历 -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="experience.title">实习与项目经历</h2>
+            <div class="experience-quote">
+                <p class="quote-text" data-i18n="experience.quote">"行动胜于言语。"</p>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-column">
+                    <h3 class="timeline-subtitle">🏫 <span data-i18n="experience.onCampus">校内经历</span></h3>
+                    <div class="timeline-section">
+                        <h4 data-i18n="experience.work">工作经历</h4>
+                        <div class="timeline" id="onCampusWorkTimeline">
+                            <!-- 由 JavaScript 动态生成 -->
+                        </div>
+                    </div>
+                    <div class="timeline-section">
+                        <h4 data-i18n="experience.project">项目经历</h4>
+                        <div class="timeline" id="onCampusProjectTimeline">
+                            <!-- 由 JavaScript 动态生成 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-column">
+                    <h3 class="timeline-subtitle">💼 <span data-i18n="experience.offCampus">校外经历</span></h3>
+                    <div class="timeline" id="offCampusTimeline">
+                        <!-- 由 JavaScript 动态生成 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 兴趣爱好 -->
+    <section id="interests" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="interests.title">兴趣爱好</h2>
+            <div class="interests-quote">
+                <p class="quote-text" data-i18n="interests.quote">"阅读是心灵的冒险。"</p>
+            </div>
+            <div class="interests-grid" id="interestsGrid">
+                <!-- 由 JavaScript 动态生成 -->
+            </div>
+            <h3 class="origami-gallery-title" data-i18n="interests.items.3.galleryTitle">折纸作品展示</h3>
+            <div class="origami-gallery" id="origamiGallery">
+                <!-- 由 JavaScript 动态生成 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">联系我</h2>
+            <p class="contact-subtitle" data-i18n="contact.subtitle">欢迎通过以下方式与我联系</p>
+            <div class="contact-links">
+                <div class="contact-item" onclick="copyToClipboard('zhangqx2025@shanghaitech.edu.cn')">
+                    <span class="contact-icon">✉</span>
+                    <span class="contact-text">zhangqx2025@shanghaitech.edu.cn</span>
+                    <span class="copy-hint" data-i18n="contact.copyHint">点击复制</span>
+                </div>
+                <div class="contact-item" onclick="copyToClipboard('13310065772')">
+                    <span class="contact-icon">💬</span>
+                    <span class="contact-text">13310065772</span>
+                    <span class="copy-hint" data-i18n="contact.wechatHint">微信 / 点击复制</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.text">© 2025 张琪想. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

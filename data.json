@@ -1,0 +1,487 @@
+{
+    "nav": {
+        "home": {
+            "zh": "首页",
+            "en": "Home"
+        },
+        "about": {
+            "zh": "关于我",
+            "en": "About"
+        },
+        "experience": {
+            "zh": "经历",
+            "en": "Experience"
+        },
+        "interests": {
+            "zh": "兴趣",
+            "en": "Interests"
+        },
+        "contact": {
+            "zh": "联系",
+            "en": "Contact"
+        }
+    },
+    "hero": {
+        "greeting": {
+            "zh": "你好，我是",
+            "en": "Hello, I'm"
+        },
+        "name": {
+            "zh": "张琪想",
+            "en": "Caroline Zhang"
+        },
+        "subtitle": {
+            "zh": "上海科技大学 · 计算机科学与技术 · 本科",
+            "en": "ShanghaiTech University · CS · Undergraduate"
+        },
+        "quotes": [
+            "All for one, one for all.",
+            "I am young, I am strong, I am rich, and I am happy.",
+            "Actions speak louder than words.",
+            "Reading is an adventure of the mind.",
+            "The merit of all things lies in their difficulty.",
+            "Nothing makes time pass like a thought that absorbs all your mind.",
+            "Never fear quarrels, but seek hazardous adventures.",
+            "You’re young. Your bitter memories still have time to turn to sweet ones",
+            "Nothing makes the future look so bright as surveying it through a glass of chambertin.",
+            "The best way to keep one’s word is not to give it.",
+            "Life is a chaplet of little miseries which the philosopher counts with a smile. "
+        ]
+    },
+    "about": {
+        "title": {
+            "zh": "关于我",
+            "en": "About Me"
+        },
+        "intro": {
+            "zh": "上海科技大学 2025 级计算机科学与技术专业本科生。理性的代码世界之外，我也沉醉于文字的魅力——热爱阅读，具备排版与校对经验，并在校内校外积累了多元的工作经历。我相信技术与人文的交叉点，往往藏着最有趣的可能。",
+            "en": "An undergraduate student (Class of 2029) in Computer Science and Technology at ShanghaiTech. Beyond the world of code, I'm drawn to the power of words—an avid reader with experience in editing and proofreading. I've also gained diverse work experience both on and off campus. I believe the most exciting possibilities lie at the intersection of technology and the humanities."
+        },
+        "skills": {
+            "title": {
+                "zh": "技能",
+                "en": "Skills"
+            },
+            "items": [
+                {
+                    "zh": "Python",
+                    "en": "Python"
+                },
+                {
+                    "zh": "C/C++",
+                    "en": "C/C++"
+                },
+                {
+                    "zh": "校对",
+                    "en": "proofreading"
+                },
+                {
+                    "zh": "排版",
+                    "en": "text formatting"
+                }
+            ]
+        },
+        "courses": {
+            "title": {
+                "zh": "已修课程",
+                "en": "Completed Courses"
+            },
+            "items": [
+                {
+                    "zh": "高等数学 I",
+                    "en": "Calculus I",
+                    "gpa": "(A-)"
+                },
+                {
+                    "zh": "高等数学 II",
+                    "en": "Calculus II"
+                },
+                {
+                    "zh": "离散数学",
+                    "en": "Discrete Mathematics"
+                },
+                {
+                    "zh": "线性代数 I",
+                    "en": "Linear Algebra I",
+                    "gpa": "(A-)"
+                },
+                {
+                    "zh": "信息科学与技术导论",
+                    "en": "Introduction to Information Science and Technology",
+                    "gpa": "(A-)"
+                },
+                {
+                    "zh": "计算机编程",
+                    "en": "Introduction to Programming"
+                }
+            ]
+        }
+    },
+    "experience": {
+        "title": {
+            "zh": "实习与项目经历",
+            "en": "Experience"
+        },
+        "quote": {
+            "zh": "\"行动胜于言语。\"",
+            "en": "\"Actions speak louder than words.\""
+        },
+        "onCampus": {
+            "zh": "校内经历",
+            "en": "On-Campus Experience"
+        },
+        "offCampus": {
+            "zh": "校外经历",
+            "en": "Off-Campus Experience"
+        },
+        "work": {
+            "zh": "工作经历",
+            "en": "Work Experience"
+        },
+        "project": {
+            "zh": "项目经历",
+            "en": "Project Experience"
+        },
+        "items": [
+            {
+                "date": "2025.09",
+                "category": "on-campus",
+                "type": "work",
+                "title": {
+                    "zh": "科道书院开学迎新筹备志愿者",
+                    "en": "Kedao College Freshman Orientation Volunteer"
+                },
+                "description": {
+                    "zh": "负责场地布置",
+                    "en": "Responsible for venue setup "
+                }
+            },
+            {
+                "date": "2025.12",
+                "category": "on-campus",
+                "type": "work",
+                "title": {
+                    "zh": "科道雅集活动志愿者",
+                    "en": "Kedao Yajie Event Volunteer"
+                },
+                "description": {
+                    "zh": "摆设折纸摊位，教授同学们折纸技巧",
+                    "en": "Set up origami booth and taught paper folding techniques to students"
+                }
+            },
+            {
+                "date": "2026.07",
+                "category": "on-campus",
+                "type": "work",
+                "title": {
+                    "zh": "科道雅集活动志愿者",
+                    "en": "Kedao Yajie Event Volunteer"
+                },
+                "description": {
+                    "zh": "毕业礼品组装及发放",
+                    "en": "Graduation gift assembly and distribution"
+                }
+            },
+            {
+                "date": "2026.07 - 2026.09",
+                "category": "on-campus",
+                "type": "work",
+                "title": {
+                    "zh": "社会实践湖北恩施组财务",
+                    "en": "Social Practice: Hubei Enshi Group Finance"
+                },
+                "description": {
+                    "zh": "负责社会实践活动的财务管理工作",
+                    "en": "Responsible for financial management of social practice activities"
+                }
+            },
+            {
+                "date": {
+                    "zh": "2026.07 - 至今",
+                    "en": "2026.07 - Present"
+                },
+                "category": "on-campus",
+                "type": "work",
+                "title": {
+                    "zh": "科道书院学生助管",
+                    "en": "Kedao College Student Assistant"
+                },
+                "description": {
+                    "zh": "协助书院日常管理工作",
+                    "en": "Assist with daily college administration tasks"
+                }
+            },
+            {
+                "date": "2025.12 - 2026.01",
+                "category": "on-campus",
+                "type": "project",
+                "title": {
+                    "zh": "基于Arduino UNO及传感器卡的智能门锁",
+                    "en": "Smart Door Lock Based on Arduino UNO and Sensor Card"
+                },
+                "description": {
+                    "zh": "在信息科学与技术导论中与室友组队完成，负责记录实验数据及报告撰写",
+                    "en": "Completed with roommate in Introduction to Information Science and Technology, responsible for data recording and report writing"
+                }
+            },
+            {
+                "date": "2026.06",
+                "category": "on-campus",
+                "type": "project",
+                "title": {
+                    "zh": "I zombie游戏制作",
+                    "en": "I Zombie Game Development"
+                },
+                "description": {
+                    "zh": "计算机编程期末个人作业，使用C++语言实现基本玩法",
+                    "en": "Final project for Introduction to Programming, implemented basic gameplay using C++"
+                }
+            },
+            {
+                "date": {
+                    "zh": "2026.07 - 至今",
+                    "en": "2026.07 - Present"
+                },
+                "category": "on-campus",
+                "type": "project",
+                "title": {
+                    "zh": "个人网站制作",
+                    "en": "Personal Website Development"
+                },
+                "description": {
+                    "zh": "使用HTML、CSS和JavaScript构建个人介绍网站",
+                    "en": "Built personal portfolio website using HTML, CSS, and JavaScript"
+                }
+            },
+            {
+                "date": "2024.10",
+                "category": "off-campus",
+                "title": {
+                    "zh": "谷雨星球公众号文章",
+                    "en": "Article Published on Guyu Planet WeChat Official Account"
+                },
+                "description": {
+                    "zh": "发表关于英国夏校经历与感悟的文章",
+                    "en": "Published an article about experiences and reflections from UK summer school"
+                }
+            },
+            {
+                "date": "2026.02",
+                "category": "off-campus",
+                "title": {
+                    "zh": "超脑AI for Good冬令营运营",
+                    "en": "Super Brain AI for Good Winter Camp Operations"
+                },
+                "description": {
+                    "zh": "担任运营角色，负责餐食订购、物料采购及报销工作",
+                    "en": "Served as operations coordinator, responsible for meal ordering, material procurement, and reimbursement"
+                }
+            },
+            {
+                "date": {
+                    "zh": "2026.04 - 至今",
+                    "en": "2026.04 - Present"
+                },
+                "category": "off-campus",
+                "title": {
+                    "zh": "超脑招生客服",
+                    "en": "Super Brain Admissions Customer Service"
+                },
+                "description": {
+                    "zh": "担任招生客服，解答学员及家长疑问",
+                    "en": "Work as admissions customer service, answering questions from students and parents"
+                }
+            }
+        ]
+    },
+    "interests": {
+        "title": {
+            "zh": "兴趣爱好",
+            "en": "Interests"
+        },
+        "quote": {
+            "zh": "\"阅读是心灵的冒险。\"",
+            "en": "\"Reading is an adventure of the mind.\""
+        },
+        "items": [
+            {
+                "icon": "📚",
+                "title": {
+                    "zh": "阅读与写作",
+                    "en": "Reading & Writing"
+                },
+                "description": {
+                    "zh": "我偏爱经典文学，最喜欢的小说是《三个火枪手》，非常喜欢大仲马笔下的友谊。我还喜欢写小说（二次创作），也在公众号上发表过文章。",
+                    "en": "I prefer classic literature, with 'The Three Musketeers' being my favorite novel. I greatly admire the friendship depicted in Dumas' works. I also enjoy writing fiction (fanfiction) and have published articles on WeChat public account."
+                }
+            },
+            {
+                "icon": "🎬",
+                "title": {
+                    "zh": "看电视剧",
+                    "en": "TV Series"
+                },
+                "description": {
+                    "zh": "喜欢看科幻向的电视剧，如《神秘博士》。",
+                    "en": "Enjoy watching sci-fi TV series, such as 'Doctor Who'."
+                }
+            },
+            {
+                "icon": "🏸",
+                "title": {
+                    "zh": "运动",
+                    "en": "Sports"
+                },
+                "description": {
+                    "zh": "喜欢骑行和游泳，尽管两个都不精通。",
+                    "en": "Enjoy cycling and swimming, though not proficient at either."
+                }
+            },
+            {
+                "icon": "🎨",
+                "title": {
+                    "zh": "折纸",
+                    "en": "Origami"
+                },
+                "description": {
+                    "zh": "爱好折纸，熟悉各类立体、手工折纸造型。长期折纸培养了我的细心、专注力与动手能力。",
+                    "en": "Love origami, familiar with various 3D and handmade paper folding models. Long-term origami practice has cultivated my carefulness, focus, and hands-on ability."
+                },
+                "hasGallery": true,
+                "galleryTitle": {
+                    "zh": "折纸作品展示",
+                    "en": "Origami Gallery"
+                },
+                "gallery": [
+                    {
+                        "src": "assets/images/origami/1.jpg",
+                        "aspectRatio": "4:3"
+                    },
+                    {
+                        "src": "assets/images/origami/2.jpg",
+                        "aspectRatio": "3:4"
+                    },
+                    {
+                        "src": "assets/images/origami/3.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/4.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/5.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/6.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/7.jpg",
+                        "aspectRatio": "4:3"
+                    },
+                    {
+                        "src": "assets/images/origami/8.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/9.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/10.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/11.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/12.jpg",
+                        "aspectRatio": "3:4"
+                    },
+                    {
+                        "src": "assets/images/origami/13.jpg",
+                        "aspectRatio": "4:3"
+                    },
+                    {
+                        "src": "assets/images/origami/14.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/15.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/16.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/17.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/18.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/19.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/20.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/21.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/22.jpg",
+                        "aspectRatio": "4:3"
+                    },
+                    {
+                        "src": "assets/images/origami/23.jpg",
+                        "aspectRatio": "4:3"
+                    },
+                    {
+                        "src": "assets/images/origami/24.jpg",
+                        "aspectRatio": "1:1"
+                    },
+                    {
+                        "src": "assets/images/origami/25.jpg",
+                        "aspectRatio": "1:1"
+                    }
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": {
+            "zh": "联系我",
+            "en": "Contact Me"
+        },
+        "subtitle": {
+            "zh": "欢迎通过以下方式与我联系",
+            "en": "Feel free to reach out to me"
+        },
+        "email": "zhangqx2025@shanghaitech.edu.cn",
+        "phone": "13310065772",
+        "wechat": "13310065772",
+        "copyHint": {
+            "zh": "点击复制",
+            "en": "Click to copy"
+        },
+        "wechatHint": {
+            "zh": "微信 / 点击复制",
+            "en": "WeChat / Click to copy"
+        }
+    },
+    "footer": {
+        "text": {
+            "zh": "© 2025 张琪想. All rights reserved.",
+            "en": "© 2025 Caroline. All rights reserved."
+        }
+    }
+}
