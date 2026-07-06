@@ -81,7 +81,11 @@
             <div class="experience-quote">
                 <p class="quote-text" data-i18n="experience.quote">"行动胜于言语。"</p>
             </div>
-            <div class="timeline-container">
+            <div class="experience-mode-toggle">
+                <button class="mode-btn active" data-mode="skill" data-i18n="experience.modeSwitch.skill">按技能</button>
+                <button class="mode-btn" data-mode="timeline" data-i18n="experience.modeSwitch.timeline">按时间轴</button>
+            </div>
+            <div class="timeline-container" id="timelineContainer">
                 <div class="timeline-column">
                     <h3 class="timeline-subtitle">🏫 <span data-i18n="experience.onCampus">校内经历</span></h3>
                     <div class="timeline-section">
@@ -104,6 +108,9 @@
                     </div>
                 </div>
             </div>
+            <div class="skills-container" id="skillsContainer">
+                <!-- 由 JavaScript 动态生成 -->
+            </div>
         </div>
     </section>
 
@@ -117,7 +124,7 @@
             <div class="interests-grid" id="interestsGrid">
                 <!-- 由 JavaScript 动态生成 -->
             </div>
-            <h3 class="origami-gallery-title" data-i18n="interests.items.3.galleryTitle">折纸作品展示</h3>
+            <h3 class="origami-gallery-title" data-i18n="interests.items.0.galleryTitle">折纸作品展示</h3>
             <div class="origami-gallery" id="origamiGallery">
                 <!-- 由 JavaScript 动态生成 -->
             </div>

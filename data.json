@@ -126,6 +126,16 @@
             "zh": "\"行动胜于言语。\"",
             "en": "\"Actions speak louder than words.\""
         },
+        "modeSwitch": {
+            "timeline": {
+                "zh": "按时间轴",
+                "en": "By Timeline"
+            },
+            "skill": {
+                "zh": "按技能",
+                "en": "By Skill"
+            }
+        },
         "onCampus": {
             "zh": "校内经历",
             "en": "On-Campus Experience"
@@ -149,7 +159,7 @@
                 "type": "work",
                 "title": {
                     "zh": "科道书院开学迎新筹备志愿者",
-                    "en": "Kedao College Freshman Orientation Volunteer"
+                    "en": "Volunteer of KeDao College Freshmen Orientation"
                 },
                 "description": {
                     "zh": "负责场地布置",
@@ -162,7 +172,7 @@
                 "type": "work",
                 "title": {
                     "zh": "科道雅集活动志愿者",
-                    "en": "Kedao Yajie Event Volunteer"
+                    "en": "Volunteer of KeDao Yaji Event"
                 },
                 "description": {
                     "zh": "摆设折纸摊位，教授同学们折纸技巧",
@@ -175,7 +185,7 @@
                 "type": "work",
                 "title": {
                     "zh": "科道雅集活动志愿者",
-                    "en": "Kedao Yajie Event Volunteer"
+                    "en": "Volunteer of KeDao Yaji Event"
                 },
                 "description": {
                     "zh": "毕业礼品组装及发放",
@@ -187,8 +197,8 @@
                 "category": "on-campus",
                 "type": "work",
                 "title": {
-                    "zh": "社会实践湖北恩施组财务",
-                    "en": "Social Practice: Hubei Enshi Group Finance"
+                    "zh": "社会实践(湖北恩施组)财务",
+                    "en": " Accountant of social practice (Enshi, Hubei)"
                 },
                 "description": {
                     "zh": "负责社会实践活动的财务管理工作",
@@ -204,7 +214,7 @@
                 "type": "work",
                 "title": {
                     "zh": "科道书院学生助管",
-                    "en": "Kedao College Student Assistant"
+                    "en": "Student assistant of KeDao College"
                 },
                 "description": {
                     "zh": "协助书院日常管理工作",
@@ -220,8 +230,8 @@
                     "en": "Smart Door Lock Based on Arduino UNO and Sensor Card"
                 },
                 "description": {
-                    "zh": "在信息科学与技术导论中与室友组队完成，负责记录实验数据及报告撰写",
-                    "en": "Completed with roommate in Introduction to Information Science and Technology, responsible for data recording and report writing"
+                    "zh": "这是信息科学与技术导论的课程期末小组作业，主要负责记录实验数据及报告撰写",
+                    "en": "This is a group project in Introduction to Information Science and Technology. Mainly responsible for data recording and report writing."
                 }
             },
             {
@@ -230,11 +240,11 @@
                 "type": "project",
                 "title": {
                     "zh": "I zombie游戏制作",
-                    "en": "I Zombie Game Development"
+                    "en": "Developlement of the game I, Zombie"
                 },
                 "description": {
-                    "zh": "计算机编程期末个人作业，使用C++语言实现基本玩法",
-                    "en": "Final project for Introduction to Programming, implemented basic gameplay using C++"
+                    "zh": "计算机编程课程的期末个人作业，使用C++语言实现基本玩法",
+                    "en": "This is the final project for Introduction to Programming, implemented basic gameplay using C++."
                 }
             },
             {
@@ -245,12 +255,12 @@
                 "category": "on-campus",
                 "type": "project",
                 "title": {
-                    "zh": "个人网站制作",
-                    "en": "Personal Website Development"
+                    "zh": "个人网站制作（vibe coding)",
+                    "en": "Personal Website Development(vibe coding)"
                 },
                 "description": {
-                    "zh": "使用HTML、CSS和JavaScript构建个人介绍网站",
-                    "en": "Built personal portfolio website using HTML, CSS, and JavaScript"
+                    "zh": "在AI智能体的帮助下，使用HTML、CSS和JavaScript构建个人介绍网站",
+                    "en": "Built personal portfolio website using HTML, CSS, and JavaScript with AI agent."
                 }
             },
             {
@@ -292,6 +302,203 @@
                     "en": "Work as admissions customer service, answering questions from students and parents"
                 }
             }
+        ],
+        "skills": [
+            {
+                "icon": "🖋",
+                "title": {
+                    "zh": "写作与表达能力",
+                    "en": "Writing & Communication Skills"
+                },
+                "items": [
+                    {
+                        "date": "2024.10",
+                        "title": {
+                            "zh": "公众号文章撰写",
+                            "en": "Article Publication on WeChat Official Account"
+                        },
+                        "detail": {
+                            "zh": "在“谷雨星球”发表关于英国夏校经历与感悟的文章，展现了叙事与反思能力。",
+                            "en": "Published an article on 'Guyu Planet' reflecting on my experience and insights from a summer school in the UK, demonstrating narrative and reflective abilities."
+                        },
+                        "link": "https://mp.weixin.qq.com/s/CX5ABpwAwtXtHVjgpGBFbQ",
+                        "star": {
+                            "zh": "具备面向公众的文字表达能力，能够将个人经历转化为有观点、有情感、有逻辑的叙事内容。",
+                            "en": "Possess writing skills for the public platform, capable of transforming personal experiences into narrative content with clear viewpoints, emotional resonance, and logical structure."
+                        }
+                    }
+                ]
+            },
+            {
+                "icon": "📋",
+                "title": {
+                    "zh": "活动策划与执行能力",
+                    "en": "Event Planning & Execution Skills"
+                },
+                "items": [
+                    {
+                        "date": "2025.09",
+                        "title": {
+                            "zh": "科道书院开学迎新筹备志愿者",
+                            "en": "Volunteer for Orientation Preparation, Kedao College"
+                        },
+                        "detail": {
+                            "zh": "参与迎新筹备工作（场地布置）。",
+                            "en": "Participated in the orientation preparation work (venue setup)."
+                        }
+                    },
+                    {
+                        "date": "2025.12",
+                        "title": {
+                            "zh": "科道雅集活动志愿者（折纸摊位）",
+                            "en": "Volunteer for Kedao Yaji Event (Origami Booth)"
+                        },
+                        "detail": {
+                            "zh": "负责摊位前期的设计和中期的运营。",
+                            "en": "Responsible for the design of the origami booth in the preliminary phase & operations during the event."
+                        },
+                        "star": {
+                            "zh": "能够完成活动环节从0到1的落地，包括创意设计、物料准备与现场互动，具备活动的全流程执行能力。",
+                            "en": "Managed the booth from design to execution, including creative planning, material preparation and on-site interaction, demonstrating end-to-end event execution capabilities."
+                        }
+                    },
+                    {
+                        "date": "2026.07",
+                        "title": {
+                            "zh": "科道雅集活动志愿者",
+                            "en": "Volunteer of Kedao Yaji Event"
+                        },
+                        "detail": {
+                            "zh": "参与礼品筹备、组装与分发。",
+                            "en": "Participated in gift preparation, assembly and distribution."
+                        }
+                    },
+                    {
+                        "date": {
+                            "zh": "2026.07 - 至今",
+                            "en": "Jul 2026 – present"
+                        },
+                        "title": {
+                            "zh": "科道书院学生助管",
+                            "en": "Student Assistant of Kedao College"
+                        },
+                        "detail": {
+                            "zh": "承担书院日常事务执行、活动协助及行政支持工作。",
+                            "en": "Responsible for daily administrative tasks, event assistance and operational support."
+                        }
+                    }
+                ]
+            },
+            {
+                "icon": "💰",
+                "title": {
+                    "zh": "财务管理与行政支持能力",
+                    "en": "Financial Management & Administrative Support Skills"
+                },
+                "items": [
+                    {
+                        "date": "2026.02",
+                        "title": {
+                            "zh": "“超脑”AI for Good冬令营运营",
+                            "en": "Operator, AI for Good Winter Camp (Superbrain)"
+                        },
+                        "detail": {
+                            "zh": "负责餐食订购、物料采购与报销工作。",
+                            "en": "Responsible for meal ordering, material procurement and reimbursement."
+                        },
+                        "star": {
+                            "zh": "能及时完成采购并响应后勤保障，具备成本控制意识与多供应商协调能力。",
+                            "en": "Handled procurement and logistics support, ensuring timely delivery while maintaining cost control and coordinating with multiple vendors."
+                        }
+                    },
+                    {
+                        "date": {
+                            "zh": "2026.04 - 至今",
+                            "en": "Apr 2026 – present"
+                        },
+                        "title": {
+                            "zh": "“超脑”招生客服",
+                            "en": "Admissions Customer Service, Superbrain"
+                        },
+                        "detail": {
+                            "zh": "负责招生咨询、沟通协调和报名事宜。",
+                            "en": "Responsible for admissions consulting, communication coordination and registration matters."
+                        },
+                        "star": {
+                            "zh": "具备耐心与较为专业的沟通能力，能够准确传达信息、处理报名流程中的各类问题，提升用户报名转化率。",
+                            "en": "Provided patient, professional admissions support, clearly communicating program information, resolving registration issues, and increasing enrollment."
+                        }
+                    },
+                    {
+                        "date": "2026.07 - 2026.09",
+                        "title": {
+                            "zh": "社会实践湖北恩施组财务",
+                            "en": "Accountant of Social Practice Team in Enshi, Hubei"
+                        },
+                        "detail": {
+                            "zh": "负责团队财务预算与报销，确保所有费用支出的准确记录与及时提交。",
+                            "en": "Managed the team's budget and reimbursement processes, ensuring accurate tracking and timely submission of all expenses."
+                        }
+                    }
+                ]
+            },
+            {
+                "icon": "💻",
+                "title": {
+                    "zh": "编程与项目开发能力",
+                    "en": "Programming & Project Development Skills"
+                },
+                "items": [
+                    {
+                        "date": "2025.12 - 2026.01",
+                        "title": {
+                            "zh": "基于Arduino UNO及传感器卡的智能门锁",
+                            "en": "Smart Lock Project Based on Arduino UNO"
+                        },
+                        "detail": {
+                            "zh": "信息科学与技术导论课程期末小组作业，主要负责实验数据的记录（照片与视频）和整理，并撰写最后的项目报告。\n 基于Arduino UNO及传感器卡实现智能门锁，设计了Home和Guest两个页面：前者直接进入密码输入页面，通过密码开关锁；后者向客户端（点灯APP）发送信息，由客户端决定是否远程开锁。同时利用红蓝LED灯和无源蜂鸣器设计了防御措施，连续三次输错密码后触发蜂鸣器报警和红蓝LED交替警示。",
+                            "en": "Final group project for Introduction to Information Science and Technology. Mainly responsible for data recording (photos & videos) and report writing. \n Implemented a smart door lock using Arduino UNO and sensor cards by designing two interfaces: 'Home' (direct password entry for locking/unlocking) and 'Guest' (sends a request to the client via the app 'blinker' for remote unlocking decision). Additionally, implemented a defense mechanism using red/blue LEDs and a passive buzzer."
+                        },
+                        "star": {
+                            "zh": "具备硬件项目的协作开发能力，有实验数据整理与技术文档撰写经验，能够清晰记录项目全流程并输出高质量报告。",
+                            "en": "Possess collaborative development skills for hardware projects, have experience in experimental data organization and technical documentation, capable of clearly recording the entire project lifecycle and producing high-quality reports."
+                        }
+                    },
+                    {
+                        "date": "2026.06",
+                        "title": {
+                            "zh": "I, Zombie游戏制作（C++）",
+                            "en": "Development of the Game I, Zombie (C++)"
+                        },
+                        "detail": {
+                            "zh": "计算机编程课程个人期末作业。\n 在给定基础代码框架上，使用C++实现游戏核心玩法，包括放置僵尸及其技能与行为表现、放置植物及其攻击与被击杀表现、完整游戏逻辑判断，以及游戏数据的监视与更新。",
+                            "en": "Final individual project for the Computer Programming course.\n  Built upon a given code framework, implemented the core gameplay of I, Zombie using C++, including zombie placement with distinct skills and behaviors, plant placement with attack and death animations, complete game logic judgment and real-time monitoring & updating of game data."
+                        },
+                        "star": {
+                            "zh": "具备独立完成中小型C++项目的能力，熟悉面向对象编程逻辑，具备管理大量代码、调试与解决问题的能力，初步理解游戏设计架构。",
+                            "en": "Capable of independently completing small-to-medium-scale C++ projects, familiar with object-oriented programming logic, experienced in managing large codebases, debugging and problem-solving, with a preliminary understanding of game design architecture."
+                        }
+                    },
+                    {
+                        "date": {
+                            "zh": "2026.07 - 至今",
+                            "en": "Jul 2026 – present"
+                        },
+                        "title": {
+                            "zh": "个人网站制作（Vibe coding）",
+                            "en": "Personal Website Development (Vibe Coding)"
+                        },
+                        "detail": {
+                            "zh": "在AI agent协助下完成个人简历网站搭建，并使用GitHub Desktop实现网址部署与网页更新。",
+                            "en": "Built a personal portfolio website with the assistance of AI agents, and deployed it with continuous updates using GitHub Desktop."
+                        },
+                        "star": {
+                            "zh": "具备快速学习与工具运用能力，能够利用AI工具提升开发效率，并掌握基础的版本控制与网站部署流程。",
+                            "en": "Possess fast-learning and tool-application abilities, capable of leveraging AI tools to improve development efficiency, with foundational knowledge of version control and website deployment processes."
+                        }
+                    }
+                ]
+            }
         ]
     },
     "interests": {
@@ -304,39 +511,6 @@
             "en": "\"Reading is an adventure of the mind.\""
         },
         "items": [
-            {
-                "icon": "📚",
-                "title": {
-                    "zh": "阅读与写作",
-                    "en": "Reading & Writing"
-                },
-                "description": {
-                    "zh": "我偏爱经典文学，最喜欢的小说是《三个火枪手》，非常喜欢大仲马笔下的友谊。我还喜欢写小说（二次创作），也在公众号上发表过文章。",
-                    "en": "I prefer classic literature, with 'The Three Musketeers' being my favorite novel. I greatly admire the friendship depicted in Dumas' works. I also enjoy writing fiction (fanfiction) and have published articles on WeChat public account."
-                }
-            },
-            {
-                "icon": "🎬",
-                "title": {
-                    "zh": "看电视剧",
-                    "en": "TV Series"
-                },
-                "description": {
-                    "zh": "喜欢看科幻向的电视剧，如《神秘博士》。",
-                    "en": "Enjoy watching sci-fi TV series, such as 'Doctor Who'."
-                }
-            },
-            {
-                "icon": "🏸",
-                "title": {
-                    "zh": "运动",
-                    "en": "Sports"
-                },
-                "description": {
-                    "zh": "喜欢骑行和游泳，尽管两个都不精通。",
-                    "en": "Enjoy cycling and swimming, though not proficient at either."
-                }
-            },
             {
                 "icon": "🎨",
                 "title": {
@@ -454,6 +628,39 @@
                         "aspectRatio": "1:1"
                     }
                 ]
+            },
+            {
+                "icon": "🏸",
+                "title": {
+                    "zh": "运动",
+                    "en": "Sports"
+                },
+                "description": {
+                    "zh": "喜欢骑行和游泳，尽管两个都不精通。",
+                    "en": "Enjoy cycling and swimming, though not proficient at either."
+                }
+            },
+            {
+                "icon": "📚",
+                "title": {
+                    "zh": "阅读与写作",
+                    "en": "Reading & Writing"
+                },
+                "description": {
+                    "zh": "我偏爱经典文学，最喜欢的小说是《三个火枪手》，非常喜欢大仲马笔下的友谊。我还喜欢写小说（二次创作），也在公众号上发表过文章。",
+                    "en": "I prefer classic literature, with 'The Three Musketeers' being my favorite novel. I greatly admire the friendship depicted in Dumas' works. I also enjoy writing fiction (fanfiction) and have published articles on WeChat public account."
+                }
+            },
+            {
+                "icon": "🎬",
+                "title": {
+                    "zh": "看电视剧",
+                    "en": "TV Series"
+                },
+                "description": {
+                    "zh": "喜欢看科幻向的电视剧，如《神秘博士》。",
+                    "en": "Enjoy watching sci-fi TV series, such as 'Doctor Who'."
+                }
             }
         ]
     },

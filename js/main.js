@@ -18,11 +18,14 @@ function initSite() {
     renderSkills();
     renderCourses();
     renderTimeline();
+    renderSkillsView();
     renderInterests();
     renderOrigamiGallery();
-    updateLanguage('zh');
+    updateLanguage('en');
     setupEventListeners();
     startQuoteAnimation();
+    // 默认技能模式
+    switchExperienceMode('skill');
 }
 
 // ===================== 台词动画 =====================
@@ -122,6 +125,7 @@ function updateLanguage(lang) {
     renderSkills();
     renderCourses();
     renderTimeline();
+    renderSkillsView();
 }
 
 function getNestedValue(obj, path) {
@@ -137,6 +141,63 @@ function renderSkills() {
     container.innerHTML = skills.map(skill =>
         `<span class="skill-tag">${skill[currentLang]}</span>`
     ).join('');
+}
+
+// ===================== 渲染技能视图 =====================
+function renderSkillsView() {
+    const container = document.getElementById('skillsContainer');
+    if (!container || !siteData.experience.skills) return;
+
+    container.innerHTML = siteData.experience.skills.map(skill => `
+        <div class="skill-card">
+            <div class="skill-card-header">
+                <span class="skill-card-icon">${skill.icon}</span>
+                <div>
+                    <div class="skill-card-title">${skill.title[currentLang]}</div>
+                </div>
+            </div>
+            <ul class="skill-items">
+                ${skill.items.map(item => {
+        let dateText = item.date;
+        if (typeof item.date === 'object' && item.date[currentLang]) {
+            dateText = item.date[currentLang];
+        }
+        let starHtml = '';
+        if (item.star && item.star[currentLang]) {
+            starHtml = `<div class="skill-item-star">⭐ ${item.star[currentLang]}</div>`;
+        }
+        let linkHtml = '';
+        if (item.link) {
+            linkHtml = `<div class="skill-item-link"><a href="#" class="link-btn" data-url="${item.link}">🔗 ${currentLang === 'zh' ? '查看原文' : 'View Article'}</a></div>`;
+        }
+        return `
+                        <li class="skill-item">
+                            <div class="skill-item-date">${dateText}</div>
+                            <div class="skill-item-title">${item.title[currentLang]}</div>
+                            <div class="skill-item-detail">${item.detail[currentLang]}</div>
+                            ${linkHtml}
+                            ${starHtml}
+                        </li>
+                    `;
+    }).join('')}
+            </ul>
+        </div>
+    `).join('');
+
+    // 绑定链接点击事件
+    container.querySelectorAll('.link-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const url = btn.dataset.url;
+            const confirmMsg = currentLang === 'zh'
+                ? `即将跳转到外部链接：\n${url}\n\n是否继续？`
+                : `You are about to visit an external link:\n${url}\n\nContinue?`;
+
+            if (confirm(confirmMsg)) {
+                window.open(url, '_blank');
+            }
+        });
+    });
 }
 
 // ===================== 渲染时间线 =====================
@@ -275,12 +336,44 @@ function updateContactInfo() {
     // 联系信息已直接在 HTML 中硬编码，无需动态更新
 }
 
+// ===================== 经历模式切换 =====================
+function switchExperienceMode(mode) {
+    const timelineContainer = document.getElementById('timelineContainer');
+    const skillsContainer = document.getElementById('skillsContainer');
+    const modeBtns = document.querySelectorAll('.mode-btn');
+
+    // 更新按钮状态
+    modeBtns.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.mode === mode);
+    });
+
+    // 显示/隐藏对应视图
+    if (mode === 'timeline') {
+        timelineContainer.style.display = 'grid';
+        skillsContainer.classList.remove('active');
+    } else {
+        timelineContainer.style.display = 'none';
+        skillsContainer.classList.add('active');
+        // 切换语言时重新渲染技能视图
+        renderSkillsView();
+    }
+}
+
 // ===================== 事件监听 =====================
 function setupEventListeners() {
     // 语言切换
     document.getElementById('langToggle').addEventListener('click', () => {
         const newLang = currentLang === 'zh' ? 'en' : 'zh';
         updateLanguage(newLang);
+    });
+
+    // 经历模式切换
+    const modeBtns = document.querySelectorAll('.mode-btn');
+    modeBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const mode = btn.dataset.mode;
+            switchExperienceMode(mode);
+        });
     });
 
     // 移动端菜单切换
