@@ -268,7 +268,7 @@ function renderOrigamiGallery() {
         const aspectRatio = img.aspectRatio || '1:1';
         return `
                     <div class="origami-item" data-aspect="${aspectRatio}">
-                        <img src="${img.src}" alt="Origami ${index + 1}" loading="lazy">
+                        <img src="${img.src}" alt="Origami ${index + 1}">
                     </div>
                 `;
     }).join('')}
