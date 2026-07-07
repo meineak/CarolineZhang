@@ -773,9 +773,20 @@ body {
     font-size: 1.1rem;
     color: var(--accent);
     margin-top: 60px;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.origami-gallery-note {
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--text-light);
+    margin-bottom: 24px;
+    font-style: italic;
+    opacity: 0.8;
+    line-height: 1.5;
+    padding: 0 20px;
 }
 
 .origami-gallery {

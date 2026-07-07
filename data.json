@@ -518,13 +518,17 @@
                     "en": "Origami"
                 },
                 "description": {
-                    "zh": "爱好折纸，熟悉各类立体、手工折纸造型。长期折纸培养了我的细心、专注力与动手能力。",
-                    "en": "Love origami, familiar with various 3D and handmade paper folding models. Long-term origami practice has cultivated my carefulness, focus, and hands-on ability."
+                    "zh": "折纸是我长久以来热爱的爱好。我沉醉于将普通纸张折出精致立体作品的静谧美感。折纸既予我快乐，也锻炼了我的耐心、专注力，让我做事细致务实。于我，折纸是宁静且富有创造力的自我表达。",
+                    "en": "Origami has always been one of my favorite hobbies. I am deeply drawn to the quiet beauty of transforming a simple sheet of paper into delicate 3D creations and handmade models. Over time, this practice has not only brought me joy, but also helped me develop patience, concentration, and a more careful, hands-on approach to the things I do. For me, origami is more than paper folding—it is a peaceful and creative way to express myself."
                 },
                 "hasGallery": true,
                 "galleryTitle": {
                     "zh": "折纸作品展示",
                     "en": "Origami Gallery"
+                },
+                "galleryNote": {
+                    "zh": "为了保证更好的展示效果，在所展出的照片中，有部分是由折纸作品实拍与AI生成背景经后期处理组合而成。",
+                    "en": "To ensure the best presentation, some photos are composites of real origami works and AI-generated backgrounds."
                 },
                 "gallery": [
                     {
