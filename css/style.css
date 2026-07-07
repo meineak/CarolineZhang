@@ -761,7 +761,7 @@ body {
 
 .interests-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     max-width: 900px;
     margin: 0 auto;
@@ -836,6 +836,10 @@ body {
     border: 1px solid transparent;
 }
 
+.interest-card-full {
+    grid-column: 1 / -1;
+}
+
 .interest-card:hover {
     transform: translateY(-6px);
     border-color: var(--accent);
@@ -866,6 +870,7 @@ body {
     color: var(--text-light);
     margin-bottom: 30px;
     font-size: 1rem;
+    white-space: pre-line;
 }
 
 .contact-links {
@@ -960,7 +965,7 @@ body {
     }
 
     .interests-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .origami-gallery-container {

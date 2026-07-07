@@ -281,13 +281,15 @@ function renderInterests() {
     const container = document.getElementById('interestsGrid');
     const items = siteData.interests.items;
 
-    container.innerHTML = items.map((item, index) => `
-        <div class="interest-card">
+    container.innerHTML = items.map((item, index) => {
+        const extraClass = item.hasGallery ? ' interest-card-full' : '';
+        return `
+        <div class="interest-card${extraClass}">
             <span class="interest-icon">${item.icon}</span>
             <h3 class="interest-title" data-i18n="interests.items.${index}.title">${item.title[currentLang]}</h3>
             <p class="interest-desc" data-i18n="interests.items.${index}.description">${item.description[currentLang]}</p>
         </div>
-    `).join('');
+    `}).join('');
 
     // 重新绑定 i18n 数据
     items.forEach((item, index) => {
