@@ -94,11 +94,13 @@
                 },
                 {
                     "zh": "高等数学 II",
-                    "en": "Calculus II"
+                    "en": "Calculus II",
+                    "gpa": "(A+)"
                 },
                 {
                     "zh": "离散数学",
-                    "en": "Discrete Mathematics"
+                    "en": "Discrete Mathematics",
+                    "gpa": "(A+)"
                 },
                 {
                     "zh": "线性代数 I",
@@ -112,7 +114,8 @@
                 },
                 {
                     "zh": "计算机编程",
-                    "en": "Introduction to Programming"
+                    "en": "Introduction to Programming",
+                    "gpa": "(A)"
                 }
             ]
         }
